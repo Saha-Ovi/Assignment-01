@@ -176,6 +176,71 @@ nav h2 a {
     margin: 0;
 }
 
+/* Section reviewer */
+.section-review
+{
+    margin:140px auto;
+    background-color: rgba(245, 248, 255, 1);
+    max-width: 1270px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.section-reviews
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0;
+
+
+}
+.section-reviews-col
+{
+    
+    padding: 24px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,5,0.05);
+    width: 33%;
+    
+}
+.section-reviews-col:hover{
+ 
+    background-color:#b3b2db ;
+
+}
+.section-reviwer
+{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+
+.section-review-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.sec-rev-col-tittle
+{
+    color: rgba(30, 30, 30, 1);
+    font-size: 18px;
+}
+.sec-rev-col-sub-tittle
+{
+    color: rgba(30, 30, 30, 1);
+    font-size: 15px;
+}
+.section-reviwer-col h5
+{
+    color: rgba(117, 117, 117, 1);rgba(179, 179, 179, 1);
+}
+.section-reviwer-col p
+{
+    color: rgba(179, 179, 179, 1);
+}
+
+
 /* Section message  */
 
 .section-message{
