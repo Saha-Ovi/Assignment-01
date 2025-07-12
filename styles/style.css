@@ -1,5 +1,4 @@
-body
-{
+body {
     margin: 0 auto;
     padding: 0px;
 }
@@ -54,7 +53,7 @@ body
 
 header {
     background-image: url(../media/Hero-bg.png);
-    height:700px;
+    height: 700px;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -63,8 +62,7 @@ header {
 /* nav styles */
 
 /* logo */
-.lg
-{
+.lg {
     font-size: 34px;
     font-weight: bold;
     font-family: "Inter";
@@ -92,52 +90,88 @@ nav h2 a {
 /* Banner Section */
 .banner-section {
     text-align: center;
-    
+
 }
-.banner-title
-{
+
+.banner-title {
     font-size: 65px;
     font-weight: bold;
 }
+
 /* Main */
 
 /* Section Action */
-.section-action
-{
+.section-action {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 220px;
-    padding: 50px;
+    justify-content:space-between;
+    gap:220px;
+    padding:50px;
     margin:116px auto;
 
-} 
-.section-action-left button
-{
+}
+
+.section-action-left button {
     padding: 12px;
-    
+
 }
-.action-title{
-    font-size: 42px;
-    font-weight: bold;
-    
+
+.action-title {
+    font-size:42px;
+    font-weight:bold;
+
 }
-.action-description
-{
-    font-size: 24px;
-    font-weight:400 ;
+
+.action-description {
+    font-size:24px;
+    font-weight:400;
     color: #252432;
-    
+
 }
-.action-image
-{
-    border-radius: 48px;
+
+.action-image {
+    border-radius:48px;
 }
-.section-action-right
-{
-    margin-right: 200px;
+
+.section-action-right {
+    margin-right:200px;
 }
-.section-action-left
+
+.section-action-left {
+    margin-left:200px;
+}
+
+/* section productive user */
+
+.section-productive-user{
+    text-align:center;
+    padding:50px 140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius:24px;
+    max-width: 1000px;
+    width: 50%;
+    margin: 0 auto;
+}
+.productive-user{
+    display: flex;
+    gap:50px;
+    justify-content:space-around;
+    align-items:center;
+}
+.section-productive-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+.user-title
 {
-    margin-left: 200px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: "Inter";
+    margin-bottom: 0;
+}
+.user-sub-title{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
 }
